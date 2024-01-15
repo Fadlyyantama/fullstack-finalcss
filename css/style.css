@@ -1,0 +1,999 @@
+*{
+    margin: 0;
+    font-family: arial;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+/* header */
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+}
+
+header > div > h3{
+    font-size: 30px;
+}
+
+header > div > button{
+    padding: 10px;
+    background-color: rgb(248, 190, 0);
+    border: none;
+    border-radius: 5px;
+   
+}
+
+header > div > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+/* container-1 */
+
+
+
+section.container-1{
+    background-image: url(/assets/aerial-shot-sea-waves-seashore-during-daytime.jpg);
+    padding: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+}
+
+section.container-1::before {
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(50, 50, 50, 0.6)
+    
+    
+}
+
+
+section.container-1 > .desc{
+    margin-top: 50px;
+    width: 1000px;
+    z-index: 1;
+    
+}
+
+
+
+section.container-1 > .desc > h1{
+    font-size: 40px;
+    color: white; 
+    padding: 10px;
+    margin-top: 60px;
+}
+
+section.container-1 > .desc > p{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+section.container-1 > .desc > button{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+section.container-1 > .img-1 > img{
+    width: 600px;
+}
+
+
+/* container-2 */
+
+.container-2{
+    padding: 50px 100px;
+}
+
+.container-2 > div > h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ytb-video{
+    text-align: center;
+}
+
+.ytb-video > iframe {
+    width: 1280px;
+    height: 720px;
+    border-radius: 5px;
+}
+
+
+/* container-3 */
+
+.img-partner{
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 > div > h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.img-partner > div{
+    margin: 20px;
+    padding: 20px;
+}
+.img-partner > div > img{
+    width: 200px;
+}
+
+
+/* container-4 */
+
+.container-4{
+    padding: 30px;
+    padding-bottom: 50px;
+    display: flex; 
+    justify-content: center;  
+}
+
+.container-4 > div{
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.container-4 > div > img{
+    width: 400px;
+}
+
+.container-4 > div > p{
+    padding-bottom: 20px;
+}
+
+.container-4 > div > h4{
+    font-size: 18px;
+    color: rgb(255, 145, 0);
+    padding-bottom: px;
+}
+
+.container-4 > div > li{
+    margin: 8px 5px;
+
+}
+
+
+
+.container-4 > div > button{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color:rgb(54, 54, 54); 
+    border-radius: 5px;  
+}
+
+.container-4 > div > button:hover{
+    background-color: rgb(255, 187, 0);
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.container-4 > div > button > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* container-5 */
+
+.container-5{
+    padding: 50px 100px 150px 100px;
+}
+
+.container-5 > h3{
+    text-align: center;
+    font-size: 34px;
+   
+}
+
+.container-5 > p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+.cont-5{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.cont-5 > img{
+    width: 500px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.desc-5{
+    margin: 50px;
+    
+}
+
+.desc-5 > h3{
+    margin-top: 160px;
+    font-size: 25px;
+    
+}
+
+.desc-5 > p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+.desc-6{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.cont-6{
+    display: flex;
+}
+
+.cont-6 > img{
+    width: 500px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+
+.desc-6 > h3{
+    margin-top: 120px;
+    font-size: 25px;
+    
+}
+
+.desc-6 > p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+.desc-6 > button{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    background-color:rgb(54, 54, 54); 
+}
+
+.desc-6 > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px
+}
+
+
+
+
+/* container-6 */
+
+.container-6 > div > h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.img-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-content > div{
+    margin: 10px;
+    
+}
+
+
+.img-content > div > img{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px;
+    
+}
+
+.img-content2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-content2 > div{
+    margin: 10px;
+    
+}
+
+
+.img-content2 > div > img{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px;
+    
+}
+
+/* container-7 */
+
+.container-7{
+    padding: 100px 0px;
+}
+
+.container-7 > div > h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.desc-7 > p{
+    font-size: 25px;
+    margin-top: 3px;
+    justify-content: left;
+}
+
+.content-7{
+  
+}
+
+.content-7 .desc-7{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.content-7 .desc-7 > p{
+    margin-left: 8px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.content-7 .desc-7 > div > i{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+/* container-8 */
+
+.container-8{
+    display: flex;
+    justify-content: center;
+}
+
+.jdl-testimoni{
+    text-align: center;
+    font-size: 23px;
+}
+
+.container-8 > div{
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container-8 > div > img{
+    width: 300px;
+}
+
+.container-8 > div > p{
+    padding: 30px 30px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+/* container-9 */
+
+.jdl-cont9{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-9{
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.container-9 > div{
+    margin: 20px;
+    width: 700px;
+    margin-left: 565px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+    
+}
+
+.container-9 > div > h3 {
+    color: rgb(255, 145, 0);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* footer */
+
+
+.footer-1{
+    padding: 60px 10px 20px 10px;
+    text-align: center;
+    background-color:  rgb(255, 145, 0);
+}
+
+.footer-1 > h2{
+    margin-bottom: 15px;
+}
+
+.footer-1 > button{
+    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+}
+.footer-1 > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.cont-sosmed{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont-sosmed > i {
+    margin: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+.footer-2 > div > button{
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 145, 0);
+}
+.footer-2 > div > button > a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(48, 48, 48);
+}
+
+.footer-2 > div {
+    margin: 20px;   
+    text-align: center;
+}
+
+.footer-2 > div > h3{
+    padding-bottom: 20px;
+    color: rgb(255, 145, 0);
+    font-size: 25px;
+}
+
+.footer-2 > div > p{
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-logo{
+    width: 300px;
+}
+
+.copyright-footer {
+    padding: 20px 10px 10px 10px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+
+
+
+
+
+@media  screen and (max-width: 600px) {
+
+    /* container-1 */
+
+    section.container-1{
+        background-image: url(/assets/aerial-shot-sea-waves-seashore-during-daytime.jpg);
+        padding: 200px 50px 200px 50px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    
+        
+    }
+
+    section.container-1 > .desc{
+        margin-top: 0px;
+        width: 500px;
+    }
+
+    section.container-1 > img{
+        width: 400px;
+        
+    }
+
+    section.container-1 > .desc > p{
+        font-size: 22px;
+        color: white;
+        padding: 10px;
+    }
+    
+    
+    section.container-1 > .desc > button{
+        padding: 10px;
+    }
+   
+
+
+    /* container-2 */
+
+    .container-2{
+        padding: 30px;
+    }
+
+    .container-2 > div > h3{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .ytb-video{
+        text-align: center;
+    }
+
+    .ytb-video > iframe {
+        width: 500px;
+        height: 300px;
+
+    }
+
+    
+    /* container-3 */
+
+
+
+    .img-partner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-partner > div{
+        margin: 10px;
+        padding: 10px;
+    }
+    .img-partner > div > img{
+        width: 120px;
+    }
+    .container-3 > div > h3{ 
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 350px;
+        text-align: center; 
+    }
+
+ 
+
+
+
+    /* container-4 */
+
+    .container-4 {
+        padding: 30px;
+        display: inline-block;
+        justify-content: center;   
+    }
+
+    .container-4 > div{
+        margin: 10px;
+        margin-left: 70px;
+        margin-top: 30px;
+        padding: 30px;
+        box-shadow: 0px 0px 5px 0px;
+        border-radius: 5px;
+        width: 350px;
+    }
+
+    .container-4 > div > img{
+        box-shadow: 0px 0px 2px 0px;
+        border-radius: 5px;
+    }
+
+
+
+    .container-4 > div > h2{
+        margin-top: 10px;
+    }
+
+    .container-4 > div > li{
+        font-size: 15px;
+    }
+
+
+    .container-4 > div > img{
+        width: 350px;
+    }
+
+  
+
+
+    /* container-5 */
+
+
+    .container-5{
+        padding: 20px 50px 0px 50px;
+    }
+
+    .container-5 > p{
+        text-align: center;
+        margin-bottom: 0px;
+        font-size: 17px;
+        color: rgb(102, 102, 102);
+    }
+
+    .container-5 > h3{
+        font-size: 30px;
+    }
+
+
+    .cont-5{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .cont-5 > img{
+        width: 400px;
+        border-radius: 50%;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .desc-5{
+        margin: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .desc-5 > h3{
+        margin-top: 5px;
+        font-size: 24px;
+    }
+
+    .desc-5 > p{
+        margin-top: 10px;
+        font-size: 17px ;
+        color: rgb(102, 102, 102);
+    }
+
+      
+
+    .cont-6{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .cont-6 > img{
+        width: 400px;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .desc-6{
+        margin: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .desc-6 > h3{
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .desc-6 > p{
+        margin-top: 10px;
+        font-size: 17px ;
+        color: rgb(102, 102, 102);
+    }
+
+    /* container-6 */
+
+
+    .contentimg-6{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .img-content{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .img-content > div{
+        margin: 10px;
+        
+    }
+    
+    
+    .img-content > div > img{
+        width: 250px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 3px 0px;
+        
+    }
+
+    .img-content2{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .img-content2 > div{
+        margin: 10px;
+        
+    }
+    
+    
+    .img-content2 > div > img{
+        width: 250px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 3px 0px;
+        
+    }
+
+
+    /* container-7 */
+
+
+    .container-7{
+        padding-bottom: 100px;
+    }
+
+    .container-7 > div > h3{
+        margin-top: 10px;
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    .content-7 .desc-7{
+        padding: 5px 50px;
+    }
+
+    .content-7 .desc-7 > p{
+        margin-left: 5px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .content-7 .desc-7 > div > i{
+        background-color: green;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        justify-content: center;    
+        margin-top: 20px;
+        margin-right: 5px; 
+        margin-left: 30px;  
+    }
+
+    .desc-7 > p{
+        font-size: 15px;
+    }
+
+
+    /* container-8 */
+
+    .container-8 {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .container-8 > div {
+        width: 350px;
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .container-8 > div > p{
+        font-size: 22px;
+    }
+
+    .container-8 > div > img{
+        width: 350px;
+    }
+
+
+    /* container-9 */
+
+    .jdl-cont9{
+        padding: 30px 80px 10px 80px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .container-9{
+        justify-content: center;
+    }
+    
+    .container-9 > div{
+        margin: 20px;
+        width: 500px;
+        margin-left: 20px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px;
+        
+    }
+    
+    .container-9 > div > h3 {
+        color: rgb(255, 145, 0);
+        font-size: 25px;
+    }
+
+
+
+
+    /* footer */
+
+    .footer-1{
+        padding: 60px 10px 20px 10px;
+        text-align: center;
+        background-color:  rgb(255, 145, 0);
+    }
+
+    .footer-1 > h2{
+        margin-bottom: 15px;
+    }
+
+    .footer-1 > button{
+        margin-top: 40px;
+        padding: 10px;
+        border: none;
+        box-shadow: 0px 0px 2px 0px;
+        border-radius: 5px;
+        background-color: rgb(48, 48, 48);
+    }
+    .footer-1 > button > a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    .cont-sosmed{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cont-sosmed > i {
+        margin: 5px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .footer-2{
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(48, 48, 48);
+    }
+    
+    .footer-2 > div {
+        margin: 20px;   
+        text-align: center;
+    }
+    
+    .footer-2 > div > h3{
+        padding-bottom: 10px;
+        color: rgb(255, 145, 0);
+        font-size: 25px;
+    }
+    
+    .footer-2 > div > p{
+        margin: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .footer-logo{
+        width: 520px;
+    }
+
+    .footer-2 > div > button{
+        margin-top: 20px;
+        padding: 15px;
+        border: none;
+        box-shadow: 0px 0px 2px 0px;
+        border-radius: 5px;
+        background-color: rgb(255, 145, 0);
+    }
+    .footer-2 > div > button > a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    
+
+
+
+    
+    
+    
+    
+        
+
+    
+}
